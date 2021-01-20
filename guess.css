@@ -117,3 +117,38 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .again {
+    left: 0;
+    margin: 0rem 12.5%;
+    width: 75%;
+  }
+
+  .right {
+    position: relative;
+    top: 10rem;
+    right: 25%;
+  }
+
+  .left {
+    position: relative;
+    left: 25%;
+    bottom: 20%
+  }
+
+  .message {
+    margin-top: 8rem;
+    height: 3rem;
+    right: 45%;
+    position: relative;
+  }
+
+  .between {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 9rem;
+    margin: 0 18.5%;
+    right: 0;
+  }
+}
