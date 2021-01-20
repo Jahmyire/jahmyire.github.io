@@ -103,6 +103,7 @@ h1 {
   font-family: inherit;
   padding: 2rem 3rem;
   cursor: pointer;
+  z-index: 99;
 }
 
 .btn:hover {
