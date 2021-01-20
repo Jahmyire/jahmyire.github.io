@@ -37,7 +37,7 @@ document.querySelector('.check').addEventListener('click', function () {
   if (score < 0) {
       score = 20;
     document.querySelector('.message').textContent =
-      'You lost. Better luck next time. Score has been reset';
+      'You lost. Score has been reset';
     document.querySelector('.score').textContent = score;
     document.querySelector('body').style.background = 'red';
   }
